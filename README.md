@@ -1,7 +1,7 @@
 # EQ-3max-simple-boiler-control
 simple system with arduino uno and/or ESP8266 that provides boilerON/OFFcontrol based on room thermostats valve positions 
 
-There is the Thermeq3 project with arduino YUN which has a lot of fancy features, but it's too complicated for me. Also Yun controller is not cheap. This initial code was made for an Arduino UNO that sends AT-commands to ESP8266 WIFI chip. So for a few euro/dollar you're all set.
+There is the Thermeq3 project with arduino YUN which has a lot of fancy features, but it's too complicated for me. Also Yun controller is not cheap. This initial code was made for an Arduino UNO that sends AT-commands to ESP8266 WIFI chip, and interfacing via Hobbyking LCD. So for a few euro/dollar you're all set.
 
 My system is running for more than a year now, a cube with seven thermostats. There is also domestic hot water control. The code uses three outputs: 'burner control' 'circulation pump for heating' and ' circulation pump for domestic hot water. 
 
