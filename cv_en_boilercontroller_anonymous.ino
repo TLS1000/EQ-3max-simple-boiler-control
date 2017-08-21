@@ -1,4 +1,11 @@
 /**
+ * @example TCPClientSingle.ino
+ * @brief The TCPClientSingle demo of library WeeESP8266. 
+ * @author Wu Pengfei<pengfei.wu@itead.cc> 
+ * @date 2015.02
+ * 
+ * @par Copyright:
+ * Copyright (c) 2015 ITEAD Intelligent Systems Co., Ltd. \n\n
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
  * published by the Free Software Foundation; either version 2 of
@@ -45,6 +52,7 @@ void setup(void)
     Serial.begin(115200);
     //mySerial.begin(9600);
     Serial.print("setup begin\r\n");
+    delay(60000);
     analogReference(INTERNAL);
     Serial.print("FW Version:");
     Serial.println(wifi.getVersion().c_str());
